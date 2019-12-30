@@ -2,9 +2,9 @@ const cli = require('commander');
 const TCPProxy = require('./lib/tcp-proxy');
 
 cli
-  .option('-l --listenport [listenport]', 'port to listen on')
-  .option('-t --target [target]', 'target domain or IP to forward data')
-  .option('-p --targetport [targetport]', 'target port to forward data')
+  .requiredOption('-l --listenport [listenport]', 'port to listen on')
+  .requiredOption('-t --target [target]', 'target domain or IP to forward data')
+  .requiredOption('-p --targetport [targetport]', 'target port to forward data')
   .option('-v --verbosity [verbosity]', 'verbosity level (0, 1, 2)')
   .parse(process.argv);
 
