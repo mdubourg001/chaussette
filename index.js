@@ -1,5 +1,5 @@
 const cli = require('commander');
-const TCPProxy = require('./lib/tcp-proxy');
+const Chaussette = require('./lib/chaussette');
 
 cli
   .requiredOption('-l --listenport [listenport]', 'port to listen on')
@@ -8,7 +8,7 @@ cli
   .option('-v --verbosity [verbosity]', 'verbosity level (0, 1, 2)')
   .parse(process.argv);
 
-new TCPProxy({
+new Chaussette({
   listenPort: cli.listenport,
   targetAddr: cli.target,
   targetPort: cli.targetport,
