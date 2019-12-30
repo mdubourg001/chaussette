@@ -1,4 +1,4 @@
-## Chaussette
+## Chaussette 🧦
 
 ![GitHub](https://img.shields.io/github/license/mdubourg001/chaussette.svg)
 ![npm](https://img.shields.io/npm/v/chaussette.svg)
@@ -9,8 +9,6 @@ Chaussette is a NodeJS proxy. It allows you to communicate with a TCP server
 When started on port **9898**, for example, Chaussette will spawn a WebSocket
 server and, for every WebSocket client connecting to it, will create an associated
 Socket connected to specified host and port, and forward every data to it.
-
-**"Chaussette"** is the literal French translation of the word "Socket".
 
 ---
 
