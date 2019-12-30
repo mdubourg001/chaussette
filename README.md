@@ -1,5 +1,8 @@
 ## Chaussette
 
+![GitHub](https://img.shields.io/github/license/mdubourg001/chaussette.svg)
+![npm](https://img.shields.io/npm/v/@damnhotuser/chaussette.svg)
+
 Chaussette is a NodeJS proxy. It allows you to communicate with a TCP server
 (or any protocol built on it) from a browser's WebSocket.
 
