@@ -8,12 +8,13 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "prettier": "^1.19.1",
     "husky": "^3.1.0",
-    "lint-staged": "^9.5.0"
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1"
   },
   "dependencies": {
     "chalk": "^3.0.0",
+    "commander": "^4.0.1",
     "dayjs": "^1.8.18",
     "ws": "^7.2.1"
   }
