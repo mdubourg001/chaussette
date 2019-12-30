@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const cli = require('commander');
 const Chaussette = require('./lib/chaussette');
 

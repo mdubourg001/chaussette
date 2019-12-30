@@ -1,3 +1,9 @@
+# npm stuff
 node_modules
 
+# ide config files
 .idea
+
+# parcel build files
+.cache
+bin
