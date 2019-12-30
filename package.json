@@ -7,6 +7,9 @@
   "author": "maxime.dubourg",
   "license": "MIT",
   "private": false,
+  "bin": {
+    "chaussette": "./index.js"
+  },
   "devDependencies": {
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
