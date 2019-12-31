@@ -19,12 +19,14 @@
   "scripts": {
     "build-cli": "parcel build cli.js --no-minify --target node --out-dir bin && chmod +x bin/cli.js",
     "add-hashbang": "echo \"#!/usr/bin/env node\n$(cat bin/cli.js)\" > bin/cli.js",
-    "build": "yarn build-cli && yarn add-hashbang",
     "clean": "rm -rf bin .cache",
-    "prepublish": "yarn build"
+    "build": "yarn clean && yarn build-cli && yarn add-hashbang",
+    "prepublish": "yarn build",
+    "test": "jest"
   },
   "devDependencies": {
     "husky": "^3.1.0",
+    "jest": "^24.9.0",
     "lint-staged": "^9.5.0",
     "parcel": "^1.12.4",
     "prettier": "^1.19.1"
