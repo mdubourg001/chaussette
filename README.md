@@ -102,7 +102,3 @@ proxy.ontcpmessage = (message, pairId) => {
 #### Others
 
 - [ ] Send proper closing informations to both ends
-
-#### Tests
-
-- [ ] Setup tests

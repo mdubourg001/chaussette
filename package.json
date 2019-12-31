@@ -1,6 +1,6 @@
 {
   "name": "chaussette",
-  "version": "0.2.1",
+  "version": "0.2.4",
   "description": "A nodejs proxy to connect to TCP servers using browser's WebSocket API.",
   "main": "index.js",
   "repository": "https://github.com/mdubourg001/chaussette.git",
