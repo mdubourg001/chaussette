@@ -7,6 +7,12 @@
   "author": "maxime.dubourg",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "websocket",
+    "socket",
+    "tcp",
+    "proxy"
+  ],
   "bin": {
     "chaussette": "bin/cli.js"
   },
