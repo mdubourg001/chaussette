@@ -72,7 +72,7 @@ proxy.start();
 
 - [x] Usage from CLI
 - [x] Usage from NodeJS
-- [ ] External messages hooks (ex. 'onmessage' from Chaussette object)
+- [x] External messages hooks (ex. 'onmessage' from Chaussette object)
 - [ ] Allow WS to provide the host and port to connect to (with default callback)
 
 #### Logs
