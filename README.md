@@ -58,6 +58,10 @@ const proxy = new Chaussette({
   targetAddr: 'example.com',
   targetPort: 9999,
   verbosity: 1, // optional, default is 0
+  logging: {
+    // optional, logging options
+    format: 'HH-mm-ss', // logs timestamp formatting, default is 'DD-MM-YY HH:mm:ss'
+  },
 });
 
 // configures the server and starts listening on port 9898
