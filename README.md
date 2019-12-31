@@ -95,9 +95,8 @@ proxy.ontcpmessage = (message, pairId) => {
 
 - [x] Verbosity levels
 - [x] Colored logs
-- [ ] Allow logs options
-- [ ] Allow date formatting in logs (dayjs / momentjs ?)
-- [ ] Allow logging to files (one for WS, one for TCP ?)
+- [x] Allow logs options
+- [x] Allow date formatting in logs (dayjs / momentjs ?)
 - [ ] Log connected client's informations + on message
 
 #### Others
