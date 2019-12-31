@@ -62,6 +62,18 @@ const proxy = new Chaussette({
 
 // configures the server and starts listening on port 9898
 proxy.start();
+
+// preventing forwarding WS client's messages that start with "DO NOT FORWARD:"
+proxy.onwsmessage = (message, pairId) => {
+  if (message.startsWith('DO NOT FORWARD:'))
+    proxy.preventNextWSMessageForward(pairId);
+};
+
+// preventing forwarding TCP server's messages that do not start with "FORWARD IT:"
+proxy.ontcpmessage = (message, pairId) => {
+  if (!message.startsWith('FORWARD IT:'))
+    proxy.preventNextTCPMessageForward(pairId);
+};
 ```
 
 ---
